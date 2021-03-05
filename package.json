@@ -1,0 +1,49 @@
+{
+  "name": "monotrepo-apollo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "Michael Romanoff <2michael.romanoff@gmail.com>",
+  "license": "BSD-2-Clause",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "volta": {
+    "node": "12.19.0",
+    "yarn": "1.22.10"
+  },
+  "scripts": {
+    "start": "scripty",
+    "dev": "scripty",
+    "build": "scripty",
+    "test": "scripty",
+    "lint": "scripty",
+    "clean": "scripty",
+    "commit": "cz"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/config-lerna-scopes": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "commitizen": "^4.2.3",
+    "commitlint": "^11.0.0",
+    "eslint": "6.8.0",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {}
+}

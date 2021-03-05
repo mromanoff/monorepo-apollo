@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "utils" },
+    { "path": "types" },
+    { "path": "data" },
+    { "path": "server" },
+    { "path": "client" }
+  ]
+}
