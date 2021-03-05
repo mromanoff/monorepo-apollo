@@ -1,6 +1,6 @@
 {
   "name": "@mr/client",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.2.7",
