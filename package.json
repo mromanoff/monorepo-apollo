@@ -20,7 +20,8 @@
     "test": "scripty",
     "lint": "scripty",
     "clean": "scripty",
-    "commit": "cz"
+    "commit": "cz",
+    "version:bump": "yarn lerna version --conventional-commits"
   },
   "scripty": {
     "path": "./scripts/workspace"
