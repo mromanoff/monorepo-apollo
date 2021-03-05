@@ -2,7 +2,7 @@
   "name": "monotrepo-apollo",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "",
+  "repository": "git@github.com:mromanoff/monorepo-apollo.git",
   "author": "Michael Romanoff <2michael.romanoff@gmail.com>",
   "license": "BSD-2-Clause",
   "private": true,
