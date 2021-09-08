@@ -22,7 +22,23 @@ yarn
 chmod -R +rw  scripts
 ```
 
+Bootstrap and link packages
 
+```sh
+lerna link
+```
+
+Build packages
+
+```sh
+yanr build
+```
+
+Start up Apollo Server on localhost:4000
+
+```sh
+yarn start
+```
 
 Start up the project in development mode by running
 
@@ -32,4 +48,5 @@ yarn dev
 
 Changing any files in the `src` folder will result in an incremental rebuild, and a refresh of the screen.
 
-By default, the app is served on https://localhost:1234.
+By default, the client app is served on https://localhost:3000.
+By default, the apollo server is served on https://localhost:4000.
